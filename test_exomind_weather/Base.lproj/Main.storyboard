@@ -89,8 +89,8 @@
                                 <rect key="frame" x="10" y="384" width="394" height="468"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lw3-LZ-xgy">
-                                <rect key="frame" x="186.5" y="226.5" width="41.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lw3-LZ-xgy">
+                                <rect key="frame" x="186.5" y="227" width="41.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -116,7 +116,7 @@
                             <constraint firstItem="gij-6L-PqD" firstAttribute="top" secondItem="jhn-dY-s8k" secondAttribute="bottom" constant="5" id="Zeg-Xk-fPo"/>
                             <constraint firstItem="lw3-LZ-xgy" firstAttribute="centerX" secondItem="EGm-Gt-BKF" secondAttribute="centerX" id="afD-8R-UUX"/>
                             <constraint firstItem="wtr-qq-91m" firstAttribute="trailing" secondItem="jhn-dY-s8k" secondAttribute="trailing" constant="10" id="das-zp-v3J"/>
-                            <constraint firstItem="lw3-LZ-xgy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wtr-qq-91m" secondAttribute="top" id="fUO-6C-ZLT"/>
+                            <constraint firstItem="lw3-LZ-xgy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wtr-qq-91m" secondAttribute="top" constant="55" id="fUO-6C-ZLT"/>
                             <constraint firstItem="p4C-d2-dai" firstAttribute="leading" secondItem="wtr-qq-91m" secondAttribute="leading" constant="20" id="jti-hn-fQD"/>
                             <constraint firstItem="wtr-qq-91m" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lw3-LZ-xgy" secondAttribute="trailing" constant="10" id="le3-hn-iYj"/>
                             <constraint firstItem="jhn-dY-s8k" firstAttribute="top" secondItem="lw3-LZ-xgy" secondAttribute="bottom" priority="750" constant="50" id="pUB-wQ-c3m"/>
